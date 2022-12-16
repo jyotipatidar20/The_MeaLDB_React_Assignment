@@ -1,7 +1,64 @@
 .App {
   text-align: center;
 }
+#mealimg{
+  width: 290px;
+  height: 290px;
+  margin-left: 20px;
+}
+#box{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2d2013;
+}
+#header{
+  background-color:#2d2013;
+  /* height: 200px; */
+}
+#mainheading{
+  margin-left: 500px;
+  color: white;
+  font-size: 40px;
+}
+#secondline{
+  margin-left: 450px;
+  color: white;
+  margin-top: -20px;
+}
+#thirdline{
+  margin-left: 430px;
+  color: white;
+  margin-top: -15px;
 
+}
+#colore{
+  color: rgb(243, 142, 60);
+}
+#boul{
+  width: 250px;
+  height: 150px;
+  margin-top: -100px;
+}
+#Buttoncolor{
+  background-color: rgb(159, 159, 25);
+  margin-top: -70px;
+}
+#fontword{
+  color: rgb(173, 85, 13);
+  margin-left: 40px;
+  font-style: inherit;
+  margin-top: 10px;
+}
+#searchBtn{
+  margin-left: 400px;
+  margin-top: 10px;
+  height: 30px;
+  width: 150px;
+}
+#btn{
+  width: 60px;
+  height: 42px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
